@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+
+    <link rel="stylesheet" href="./estilo/menu.css" type="text/css">
+    <link rel="stylesheet" href="./estilo/menu.css" type="text/css">
+    <link rel="stylesheet" href="./estilo/main_contato.css" type="text/css">
+    <link rel="stylesheet" href="./estilo/footer.css" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Img LOGO  ----------------         -->
+        <div class="logo_container">
+            <a href="index.html">
+                <img src="" class="logo_header" alt="">
+
+            </a>
+        </div>
+
+        <!-- NAV       ----------------         -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a id="active" href="contato.html">Contato</a></li>
+                <li><a href="novidade.html">Novidades</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7786.4807840280655!2d-43.23757790057411!3d-22.923343276041827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e6bb33b90db%3A0xdf835aeab427afd6!2sShopping%20Tijuca%20-%20Av.%20Maracan%C3%A3%2C%20987%20-%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020511-000!5e0!3m2!1spt-BR!2sbr!4v1655846411396!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="informacao_container">
+            <div class="info_descricao">
+                <img class="icon_contato" src="" alt="">
+                <label for="">Whats App: (21) 99999-8888</label>
+                <br>
+                <img class="icon_contato" src="" alt="">
+                <label for="">Email: email@mail.com</label>
+            </div>
+
+            <div class="informacao_links">
+                <img class="icon_contato" src="" alt="">
+                <label for=""><a href="">Facebook</a></label> <br>
+                <img class="icon_contato" src="" alt="">
+                <label for=""><a href="">Instagram</a></label> <br>
+                <img class="icon_contato" src="" alt="">
+                <label for=""><a href="">Pinterest</a></label> <br>
+                <img class="icon_contato" src="" alt="">
+                <label for=""><a href="">youtube</a></label> <br>
+            </div>
+
+        </section>
+
+        <section class="form_container">
+            <h1>Ou nos envie uma mensagem</h1>
+            <form action="">
+                <div class="input_container">
+                    <label for="">Nome:</label>
+                    <input type="text" placeholder="">
+                </div>
+
+                <div class="input_container">
+                    <label for="">Email:</label>
+                    <input type="email" placeholder="">
+                </div>
+
+                <div class="input_container">
+                    <label for="">Assunto:</label>
+                    <input type="text" placeholder="">
+                </div>
+
+                <div class="input_container">
+
+                    <label for="">Celular:</label>
+                    <input type="text" id="celular" placeholder="(00) 90000-0000">
+                </div>
+
+                <script type="text/javascript">
+                    $("#telefone, #celular").mask("(00) 00000-0000");
+                </script>
+
+                <div class="input_container">
+                    <label for="">Mensagem</label>
+                    <textarea name="" id="" placeholder=""></textarea>
+                    <button id="enviar_mensagem">Enviar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="information">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et minima, nihil perspiciatis
+            enim quas alias nulla omnis pariatur modi deserunt asperiores rem consectetur at repellendus, qui eligendi
+            quae nemo. Quibusdam.</div>
+        <div class="copyright"> todos os direitos reservados &#169;</div>
+    </footer>
+
+
+</body>
+
+</html>
