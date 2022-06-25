@@ -1,0 +1,109 @@
+header{
+    z-index: 1;
+}
+
+
+main {
+    padding-top: 20px;
+    margin: auto;
+    width: 55%;
+    /* background-color: rgb(139, 94, 36); */
+    /* z-index: ; */
+    /* opacity: 0.5; */
+    text-align: center;
+}
+
+.section_equipe {
+    display: flex;
+    width: 65%;
+    height: 500px;
+    /* margin-bottom: 20px; */
+    position: relative;
+    /* z-index: -1; */
+    /* padding: 10px; */
+    background-color: rgb(255, 244, 255);
+    padding: 20px;
+    /* padding-top: 50px; */
+    box-sizing: border-box;
+    box-shadow: 5px 10px 7px rgb(116, 88, 116);
+}
+
+
+.section_equipe .col_img {
+    flex: 40%;
+    /* background-color: red; */
+}
+
+.section_equipe .col_img img {
+    width: 280px;
+    height: 450px;
+    /* background-color: aqua; */
+}
+
+
+.section_equipe .col_desc {
+    flex: 60%;
+    /* background-color: blue; */
+}
+
+.section_equipe .col_desc .col_desc_info{
+    /* text-align: center; */
+    text-align: justify;
+    /* background-color: aqua; */
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.section_equipe .col_desc h2{
+    font-size: 29px;
+}
+.section_equipe .col_desc .col_desc_info label{
+    font-size: 21px;
+    display: block;
+    margin: 5px 0;
+
+}
+.icon_equipe_container{
+    /* background-color: rgb(184, 29, 29); */
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.icon_equipe_container{
+
+}
+.icon_card_equipe{
+width: 35px;
+height: 35px;
+background-color: black;
+}
+
+/* ================================================= */
+
+.section_left {}
+
+.section_right {
+    float: right;
+}
+
+/* ----------------------------- */
+
+#equipe_card1 {
+/* background-color: aqua; */
+
+}
+
+#equipe_card2 {
+    /* background-color: green; */
+    
+    bottom: 70px;
+}
+
+
+#equipe_card3 {
+    
+    /* background-color: yellow; */
+    bottom: 140px;
+}
