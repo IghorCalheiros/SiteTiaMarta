@@ -1,0 +1,73 @@
+main {
+    padding-top: 75px;
+    margin: auto;
+    width: 65%;
+    /* background-color: rgb(241, 238, 6); */
+    display: flex;
+    margin-bottom: 80px;
+}
+
+aside {
+    flex: 30%;
+    /* background-color: yellowgreen; */
+    border-right: 1px solid plum;
+}
+
+.links_container {
+    width: 200px;
+    /* background-color: aquamarine; */
+    margin: auto;
+    padding-top: 180px;
+}
+
+.links_container a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+main section {
+    flex: 70%;
+    /* background-color: yellow; */
+}
+
+main h2 {
+    color: rgb(97, 3, 97);
+    margin-left: 7.5%;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    /* text-align: none; */
+}
+
+main h3 {
+    font-size: 27px;
+    color: rgb(167, 16, 180);
+}
+
+
+
+main .capa_container {
+    margin: auto;
+    background-color: red;
+    width: 85%;
+}
+
+main .capa_container img {
+    height: 350px;
+    /* height: auto; */
+    width: 100%;
+    margin: auto;
+}
+
+.paragrafo_container {
+    padding-top: 40px;
+    /* background-color: aqua; */
+    margin: auto;
+    width: 85%;
+    text-align: justify;
+}
+
+.paragrafo_container p {
+    margin-bottom: 30px;
+}
