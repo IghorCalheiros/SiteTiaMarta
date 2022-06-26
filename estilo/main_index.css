@@ -22,7 +22,7 @@ main{
 
 .apresent_col_right{
     flex: 45%;
-    background-color: orange;
+    background-color: rgb(129, 63, 129);
     box-sizing: border-box;
     padding-left: 40px;
     
@@ -82,4 +82,37 @@ margin-top: 20px;
     width: 100%;
     height: 200px;
     background-color: red;
+}
+
+.horario_funcionamento{
+margin-bottom: 50px;
+}
+
+.horario_funcionamento h2{
+    margin-left: 22%;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+table{
+    margin-left: 22%;
+    width: 55%;
+}
+
+table, th, td {
+    padding: 4px 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.horario{
+    font-weight: bold;
+}
+
+.aberto{
+background-color: rgb(82, 224, 82);
+}
+
+.fechado{
+ background-color: rgb(231, 52, 52);
 }
