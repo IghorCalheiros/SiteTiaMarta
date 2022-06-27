@@ -1,0 +1,26 @@
+.paginacao{
+    margin: auto;
+    width: 470px;
+    /* background-color: aqua; */
+}
+.paginacao_container{
+    display: inline-block;
+
+}
+
+
+.paginacao  a{
+    text-decoration: none;
+    padding: 5px 13px;
+    /* background-color: olive; */
+
+}
+
+.paginacao  a:hover{
+background-color: rgb(255, 199, 255);
+}
+
+
+.prev, .next {
+
+}
