@@ -17,7 +17,7 @@ main{
 .apresent_col_left{
     flex: 55%;
     height: 500px;
-    background-color: blue;
+    background-image: url("../imagens/capas/capalorenna.png") ;
 }
 
 .apresent_col_right{
