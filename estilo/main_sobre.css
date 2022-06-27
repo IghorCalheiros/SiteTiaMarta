@@ -49,12 +49,12 @@ main h3 {
 
 main .capa_container {
     margin: auto;
-    background-color: red;
+    /* background-color: red; */
     width: 85%;
 }
 
 main .capa_container img {
-    height: 350px;
+    height: auto;
     /* height: auto; */
     width: 100%;
     margin: auto;
