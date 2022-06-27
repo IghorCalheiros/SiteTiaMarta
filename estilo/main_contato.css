@@ -33,7 +33,7 @@ main {
 .informacao_container .info_descricao img, .informacao_links img{
 height: 30px;
 width: 30px;
-background-color: brown;
+/* background-color: brown; */
 }
 
 
